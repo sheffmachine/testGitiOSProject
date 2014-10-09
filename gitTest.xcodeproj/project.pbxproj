@@ -14,6 +14,7 @@
 		2B21F10519E6253300BB02BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B21F10419E6253300BB02BF /* Images.xcassets */; };
 		2B21F10819E6253300BB02BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B21F10619E6253300BB02BF /* LaunchScreen.xib */; };
 		2B21F11419E6253300BB02BF /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21F11319E6253300BB02BF /* gitTestTests.m */; };
+		2B21F11F19E6298400BB02BF /* YSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21F11E19E6298400BB02BF /* YSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2B21F10D19E6253300BB02BF /* gitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B21F11219E6253300BB02BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B21F11319E6253300BB02BF /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		2B21F11D19E6298400BB02BF /* YSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTest.h; sourceTree = "<group>"; };
+		2B21F11E19E6298400BB02BF /* YSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		2B21F0EB19E6253300BB02BF = {
 			isa = PBXGroup;
 			children = (
+				2B21F11D19E6298400BB02BF /* YSTest.h */,
+				2B21F11E19E6298400BB02BF /* YSTest.m */,
 				2B21F0F619E6253300BB02BF /* gitTest */,
 				2B21F11019E6253300BB02BF /* gitTestTests */,
 				2B21F0F519E6253300BB02BF /* Products */,
@@ -222,6 +227,7 @@
 				2B21F10019E6253300BB02BF /* ViewController.m in Sources */,
 				2B21F0FD19E6253300BB02BF /* AppDelegate.m in Sources */,
 				2B21F0FA19E6253300BB02BF /* main.m in Sources */,
+				2B21F11F19E6298400BB02BF /* YSTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
